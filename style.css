@@ -602,18 +602,7 @@ a:active {
 				text-align: center;
 				/*background: #e5e5e5;*/
 			
-			}
-            @media (max-width: 767.98px) {
-                    body {
-                        font-size: 8px;
-                    }
-                    .section {
-                
-                        width: 100%;
-                        max-width: 100%;
-                        text-align: center;                  
-                    } 
-                }       
+			}      
 
 
         div.abstract {
@@ -867,4 +856,14 @@ a:active {
       }
 */
 
-			
+@media (max-width: 767.98px) {
+        body {
+            font-size: 8px;
+        }
+        .section {
+    
+            width: 100%;
+            max-width: 100%;
+            text-align: center;                  
+        } 
+    } 			

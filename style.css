@@ -542,7 +542,8 @@ a:active {
 
 			.centered{
 				margin: auto;
-				max-width: 1800px;
+				max-width: 1200px;
+                width: auto;
 				text-align:left;
 			}
 
@@ -593,18 +594,20 @@ a:active {
 				/*background: #e5e5e5;*/
 			}
 			.section {
-				width: 1200px;
-				max-width: 100%;
+				/*width: 1200px;*/
+                width: auto;
+				max-width: 1200px;
 				text-align: center;
 				/*background: #e5e5e5;*/
 			
 			}
-			.right_align {
+/*			.right_align {
 				width: 1200px;
+                width: auto;
 				max-width: 100%;
 				text-align: right;
 			
-			}
+			}*/
  /*     		.abstract {
          		padding-right: 5.5em;
          		padding-left: 3em;

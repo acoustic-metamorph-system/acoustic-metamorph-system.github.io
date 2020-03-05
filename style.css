@@ -607,6 +607,12 @@ a:active {
                     body {
                         font-size: 8px;
                     }
+                    .section {
+                
+                        width: 100%;
+                        max-width: 100%;
+                        text-align: center;                  
+                    }        
 
 
         div.abstract {

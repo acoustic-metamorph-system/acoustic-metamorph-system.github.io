@@ -510,8 +510,11 @@
 /*=================================audio player above=========================*/
 
 body{
-
+    width:1250px;
+    max-width: 100%
 	text-align:center;
+    margin:0 auto;
+    font-size: 21px; 
 }
 
 .my-4 {
@@ -540,13 +543,6 @@ a:active {
   color: #f09228;
 } 
 
-			.centered{
-				margin: auto;
-				max-width: 1200px;
-                width: auto;
-				text-align:left;
-			}
-
 
 			.boxed {
 				padding: 0.5em 2em 2em 2em;
@@ -555,46 +551,16 @@ a:active {
 				max-width: 90%;
 				margin: 0 auto !important; 
 				float: none !important; ;
-			}
-            .new_boxed {
-                padding: 0.5em 2em 2em 2em;
-                /*background-color: #F8F8F8;*/
-    
-                max-width: 90%;
-                margin: 0 auto !important; 
-                float: none !important; ;
-            }            
-			.white_box {
-				padding: 0.5em 0em 2em 2em;
-				max-width: 90%;
-				margin: 0 auto !important; 
-				float: none !important; ;
-			}
-			.boxed_two {
-				padding: 2em 2em 2em 2em;
-				background-color: #F8F8F8;
-	
-				max-width: 90%;
-				margin: 0 auto !important; 
-				float: none !important; ;
-			}			
-			.boxed_mini {
-				padding: 0.5em 0.5em 0.5em 0.5em;
-				max-width: 40%;
-				background-color: #ECF9FF;
-				
-			}
+			}           		
 			.global_container {
 				text-align: center;
 				width: 100%;
-				
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				/*background: #e5e5e5;*/
 			}
 			.section {
-                width: 1200px;
+                width: 100%;
                 max-width: 100%;
 
                 /*width: auto;*/
@@ -618,7 +584,7 @@ a:active {
 				text-align: center;
 				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 				font-weight: bold;
-				font-size: 28pt;
+				font-size: 180%;
 				color: #000;
 				/*color: #478fcc; blue*/
 				padding-bottom: 13px;
@@ -627,40 +593,19 @@ a:active {
 			.imgh {
 				text-align: center;
 			}
-			h2 {
-				text-align: left;
-				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-				/*font-family: Montserrat,sans-serif;*/
-				font-weight: bold;
-				font-size: 21pt;
-				color: #000;
-				padding-bottom: 13px;
-			}
             h4 {
                 text-align: left;
                 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
                 /*font-family: Montserrat,sans-serif;*/
                 font-weight: bold;
-                font-size: 21pt;
+                font-size: 135%;
                 color: #000;
                 padding-left: 5px;
                 padding-bottom: 1px;
                 max-width: 90%;
                 margin: 0 auto !important; 
                 float: none !important; ;
-            }            
-			h3 {
-				content: "\2600\FE0E";
-				text-align: justify;
-				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-				/*font-family: Montserrat,sans-serif;*/
-				/*font-weight: bold;*/
-				font-size: 21px;
-				color: #474747;
-				line-height: 1.5em;
-				padding-bottom: 5px;
-			}			
-
+            }            		
 			.scale_img {
 				width:100%;
   				max-width: 100%;
@@ -704,7 +649,8 @@ a:active {
 					width: 1em;
 					margin-left: -1.3em;
   					
-  					font-size: 21px; 
+  					/*font-size: 21px; */
+                    font-size: 100%;
  				 	
  				 	padding-right: 1.1225em; 
 					margin-top: 13px;
@@ -726,7 +672,8 @@ a:active {
 					width: 1em;
 					margin-left: -1.3em;
   					
-  					font-size: 21px; 
+  					/*font-size: 21px; */
+                    font-size: 100%;
  				 	
  				 	padding-right: 1.1225em; 
 					margin-top: 13px;
@@ -748,7 +695,8 @@ a:active {
 					width: 1em;
 					margin-left: -1.3em;
   					
-  					font-size: 21px; 
+  					/*font-size: 21px; */
+                    font-size: 100%;
  				 	
  				 	padding-right: 1.1225em; 
 					margin-top: 13px;
@@ -763,31 +711,10 @@ a:active {
 			p, ul {
 				text-align: justify;
 				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-				font-size: 18px;
+				/*font-size: 18px;*/
+                font-size: 86%;
 				line-height: 1.5em;
 				color: #474747;
-			}
-			.answer {
-				margin-left: 0.5em;
-				margin-right: 1em;
-				margin-bottom: 10px;
-				margin-top: 13px;
-			}
-			.answer li{
-				 list-style: circle;
-			}
-			.answer li::before{
-				display: none;
-				}
-			.myButton_l {
-				display:inline-block;
-				cursor:pointer;
-				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-				font-weight: bold;
-				font-size:15px;
-				letter-spacing: 0.1em;
-				padding:10px 10px;
-				text-decoration:none;
 			}
 			.myButton {
 				 /*background-color:#6fc7ee;*/
@@ -801,7 +728,8 @@ a:active {
 				/*color:#ffffff;*/
 				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 				font-weight: bold;
-				font-size:20px;
+				/*font-size:20px;*/
+                font-size:95%;
 				letter-spacing: 0.1em;
 				padding:10px 40px;
 				text-decoration:none;
@@ -827,10 +755,11 @@ a:active {
 			}			
 
 			table {
-                style="table-layout: fixed;";
+               /* style="table-layout: fixed;";*/
 				text-align: justify;
 				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
- 				font-size:18px;
+                font-size:86%;
+ 				/*font-size:18px;*/
 				}
 
 			footer {
@@ -840,30 +769,231 @@ a:active {
 				/*padding-top: 0.5em;*/
 	            position: relative;
 	            z-index: 1;
-	            width:16em;
+	            width:16em;  
 			}
 
+            iframe {
+                width: 50vw; 
+                height: 28.125vw; /* 100/56.25 = 560/315 = 1.778 */
+            }
+
       
-      input[type=checkbox] {
-          /*display: inline-block;*/
-      }
+input[type=checkbox] {
+}
 
-      input[type=checkbox]:checked ~ .abstract  {
-          display: none;
-      }
-/*            input[type=radio]:not(:checked) ~ .abstract  {
-          display: none;
-      }
-*/
+input[type=checkbox]:checked ~ .abstract  {
+  display: none;
+}
 
-@media (max-width: 767.98px) {
-        body {
-            font-size: 8px;
-        }
-        .section {
-    
-            width: 100%;
-            max-width: 100%;
-            text-align: center;                  
-        } 
-    } 			
+
+/* 把所有case的media 全部写上去 */
+
+/*1. 比1250px大比较多的屏幕就是默认的1250最大的操作，再小也可以到1250来。*/
+/*2. 1250px 附近的应该缩放一下，不然字体看起来太大，不舒服。*/
+/*3. 1000px 附近的进入第3种状态*/
+
+
+@media screen and (max-width: 1300px){
+    body{
+        width:1000px;
+        font-size:16px;
+    }
+    h1 {
+        font-size: 210%;
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+    h4 {
+        font-size: 150%;
+    } 
+    .myButton {
+        font-size:100%;
+    }
+    p, ul{
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        width:900px;
+        font-size:15px;
+    }
+    h1 {
+        font-size: 230%;
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+    h4 {
+        font-size: 180%;
+    } 
+    .myButton {
+        font-size:120%;
+    }
+    p, ul{
+        font-size: 120%;
+    }  
+}
+
+
+@media screen and (max-width: 900px){
+    body{
+        width:100%;
+        font-size:12px;
+    }
+    h1 {
+        font-size: 230%;
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+    h4 {
+        font-size: 180%;
+    } 
+    .myButton {
+        font-size:120%;
+    }
+    p, ul{
+        font-size: 120%;
+    }
+    } 
+}
+
+/* 222 */
+@media screen and (max-width: 820px){
+    body{
+        width:100%;
+        font-size:10px;
+    }
+    .boxed {
+    max-width: 98%;
+    }   
+
+    h1 {
+        font-size: 230%;
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+    h4 {
+        font-size: 180%;
+    } 
+    .myButton {
+        font-size:120%;
+    }
+    p, ul{
+        font-size: 120%;
+    }
+    .tag li::before {
+            margin-left: -2.3em;                   
+    }      
+    .tag2 li::before {
+            margin-left: -2.3em;                   
+    }     
+    .tag3 li::before {
+            margin-left: -2.3em;                   
+    }  
+}
+@media screen and (max-width: 700px){
+    body{
+        width:100%;
+        font-size:10px;
+    }
+    .boxed {
+    max-width: 98%;
+    }
+
+    h1 {
+        font-size: 230%;
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+    h4 {
+        font-size: 180%;
+    } 
+    .myButton {
+        font-size:120%;
+    }
+    p, ul{
+        font-size: 120%;
+    }
+    .tag li::before {
+            margin-left: -3.3em;                   
+    }      
+    .tag2 li::before {
+            margin-left: -3.3em;                   
+    }     
+    .tag3 li::before {
+            margin-left: -3.3em;                   
+    }    
+}
+
+/* smallest size?111 */
+@media screen and (max-width: 600px){
+    body{
+        width:100%;
+        font-size:9px;
+    }
+    .boxed {
+    max-width: 100%;
+    }
+
+    h1 {
+        font-size: 230%;
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+    h4 {
+        font-size: 180%;
+    } 
+    .myButton {
+        font-size:120%;
+    }
+    p, ul{
+        font-size: 120%;
+        /*line-height: 2em;*/
+    }
+    .tag li::before {
+            margin-left: -4.3em;                   
+    }      
+    .tag2 li::before {
+            margin-left: -4.3em;                   
+    }     
+    .tag3 li::before {
+            margin-left: -4.3em;                   
+    }       
+}
+
+@media screen and (max-width: 500px){
+    body{
+        width:100%;
+        font-size:6px;
+    }
+    .boxed {
+    max-width: 100%;
+    }
+
+    h1 {
+        font-size: 300%;
+        padding-bottom: 1px;
+        padding-top: 5px;
+    }
+    h4 {
+        font-size: 250%;
+    } 
+    .myButton {
+        font-size:120%;
+    }
+/*    p, ul{
+        font-size: 120%;
+    } */ 
+    .tag li::before {
+            margin-left: -4.3em;                   
+    }      
+    .tag2 li::before {
+            margin-left: -4.3em;                   
+    }     
+    .tag3 li::before {
+            margin-left: -4.3em;                   
+    }   
+}
+
+

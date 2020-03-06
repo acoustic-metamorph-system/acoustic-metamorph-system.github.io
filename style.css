@@ -962,7 +962,7 @@ input[type=checkbox]:checked ~ .abstract  {
     }       
 }
 
-/*@media screen and (max-width: 500px){
+@media screen and (max-width: 500px){
     body{
         width:100%;
         font-size:6px;
@@ -972,7 +972,7 @@ input[type=checkbox]:checked ~ .abstract  {
     }
 
     h1 {
-        font-size: 300%;
+        font-size: 350%;
         padding-bottom: 1px;
         padding-top: 5px;
     }
@@ -983,5 +983,5 @@ input[type=checkbox]:checked ~ .abstract  {
         font-size:120%;
     }
 }
-*/
+
 

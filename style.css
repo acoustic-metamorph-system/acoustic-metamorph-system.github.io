@@ -862,7 +862,7 @@ input[type=checkbox]:checked ~ .abstract  {
 @media screen and (max-width: 800px){
     body{
         width:100%;
-        font-size:13px;
+        font-size:12px;
     }
     .boxed {
     max-width: 98%;
@@ -892,10 +892,10 @@ input[type=checkbox]:checked ~ .abstract  {
             margin-left: -2.3em;                   
     }  
 }
-/*@media screen and (max-width: 700px){
+@media screen and (max-width: 700px){
     body{
         width:100%;
-        font-size:10px;
+        font-size:11px;
     }
     .boxed {
     max-width: 98%;
@@ -924,20 +924,20 @@ input[type=checkbox]:checked ~ .abstract  {
     .tag3 li::before {
             margin-left: -3.3em;                   
     }    
-}*/
+}
 
 /* smallest size?111 */
 @media screen and (max-width: 600px){
     body{
         width:100%;
-        font-size:12px;
+        font-size:10px;
     }
     .boxed {
     max-width: 100%;
     }
 
     h1 {
-        font-size: 230%;
+        font-size: 270%;
         padding-bottom: 1px;
         padding-top: 5px;
     }
@@ -962,7 +962,7 @@ input[type=checkbox]:checked ~ .abstract  {
     }       
 }
 
-@media screen and (max-width: 500px){
+/*@media screen and (max-width: 500px){
     body{
         width:100%;
         font-size:6px;
@@ -982,18 +982,6 @@ input[type=checkbox]:checked ~ .abstract  {
     .myButton {
         font-size:120%;
     }
-/*    p, ul{
-        font-size: 120%;
-    } */ 
-    .tag li::before {
-            margin-left: -4.3em;                   
-    }      
-    .tag2 li::before {
-            margin-left: -4.3em;                   
-    }     
-    .tag3 li::before {
-            margin-left: -4.3em;                   
-    }   
 }
-
+*/
 
